@@ -1,0 +1,1 @@
+window.SORIDENTS = { whatsapp: '', message: 'Olá! Gostaria de conversar sobre um atendimento na Soridents.', photos: { hero: 'assets/sorriso.jpg', care: 'assets/acolhimento.jpg', experience: 'assets/experiencia.jpg' } };

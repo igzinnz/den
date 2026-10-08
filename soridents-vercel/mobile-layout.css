@@ -1,0 +1,79 @@
+/* Mobile: keep every section, with less travel and a compact dental-services grid. */
+@media(max-width:600px){
+  html{scroll-padding-top:16px}
+  .wrap{width:calc(100% - 32px)}
+  .header{padding:14px 16px;gap:12px}
+  .brand{font-size:30px}
+  .hero{gap:0;min-height:0;padding:0}
+  .hero-copy{padding:24px 16px 16px}
+  .hero .eyebrow{font-size:10px;letter-spacing:1.1px;margin-bottom:15px}
+  .hero h1{font-size:clamp(47px,12vw,59px);letter-spacing:-2.7px;line-height:.99;margin:0 0 17px}
+  .hero-description{font-size:14px;line-height:1.5;max-width:330px;margin:0 0 16px}
+  .hero-actions{gap:12px;margin-top:0;align-items:center}
+  .hero-actions .button{font-size:13px;padding:14px 17px;gap:14px}
+  .hero-actions .text-link{font-size:12px;gap:8px;padding:7px 0}
+  .scroll-cue{margin-top:13px;padding-top:0;font-size:11px}
+  .hero-art{height:315px;margin:0 16px}
+  .hero-photo{height:100%;border-radius:105px 105px 18px 18px}
+  .hero-photo img{object-position:54% center;animation:none}
+  .orbit{inset:-7px 7px 8px -8px}
+  .float-tag{padding:9px 11px;font-size:10px;line-height:1.55;border-radius:11px}
+  .float-tag strong{font-size:11px}
+  .tag-top{left:-8px;top:50px}.tag-bottom{right:-8px;bottom:36px}
+  .hero-annotation{font-size:10px;bottom:-21px}
+  .benefits{grid-template-columns:repeat(2,minmax(0,1fr));gap:15px 18px;padding:26px 0 28px}
+  .benefit{padding:0!important;border:0!important}
+  .benefit h2{font-size:15px;line-height:1.25;min-height:0;margin:7px 0 5px}
+  .benefit p{font-size:12px;line-height:1.45}
+  .care{display:flex;flex-direction:column;align-items:stretch;gap:23px;padding-block:46px}
+  .care-visual{height:255px;border-radius:16px 80px 16px 16px}
+  .care-visual img{border-radius:inherit;object-position:50% center}
+  .photo-caption{left:10px;right:10px;bottom:10px;padding:12px 13px;border-radius:8px;font-size:11px;gap:8px}
+  .photo-caption span{font-size:18px}
+  .care-copy{padding:0 3px}
+  .care .eyebrow{font-size:10px;letter-spacing:1.3px;margin-bottom:15px}
+  .care h2{font-size:36px;line-height:1.08;letter-spacing:-1.5px;margin-bottom:18px}
+  .care-copy>p:not(.eyebrow){font-size:14px;line-height:1.55;margin:0 0 12px}
+  .care .text-link{font-size:13px;margin-top:5px;padding:7px 0}
+  .care-signature{font-size:14px;margin-top:15px}
+  .marquee{padding:15px 0}
+  .marquee-track{animation-duration:100s}
+  .marquee-track>span{font-size:11px;letter-spacing:1.4px;gap:20px;padding-right:20px}
+  .marquee-track b{font-size:15px}
+  .motion-toggle{width:32px;height:32px;right:8px}
+  .services{padding-block:48px 52px}
+  .section-heading{display:block;margin-bottom:25px}
+  .section-heading .eyebrow{font-size:10px;letter-spacing:1.2px;margin-bottom:13px}
+  .section-heading h2{font-size:37px;line-height:1.08;letter-spacing:-1.5px}
+  .section-heading>p{font-size:14px;line-height:1.55;margin:14px 0 0}
+  .service-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:5px 8px}
+  .service-card{width:100%;max-width:none;min-height:235px;max-height:260px;aspect-ratio:.70;padding:20px 17px 52px}
+  .service-top{padding-top:0;margin:0 0 4px;justify-content:center}
+  .service-index{font-size:13px}
+  .service-symbol{display:none}
+  .service-card h3{font-size:18px;line-height:1.1;letter-spacing:-.3px;min-height:2.2em;margin:5px 0 8px;max-width:12ch}
+  .service-card p{font-size:12px;line-height:1.42;min-height:0;margin:0;max-width:22ch}
+  .service-link{display:none}
+  .service-note{font-size:11px;line-height:1.5;margin-top:12px;text-align:left}
+  .experience{height:510px;min-height:510px;max-height:none;align-items:flex-end}
+  .experience>img{object-position:61% center}
+  .experience-overlay{background:linear-gradient(0deg,#0c2a21ed,#0c2a2175 65%,#0c2a211b)}
+  .experience-content{padding-bottom:36px}
+  .experience .eyebrow{font-size:10px;letter-spacing:1.2px;margin-bottom:15px}
+  .experience h2{font-size:39px;letter-spacing:-1.6px;line-height:1.04;margin-bottom:17px}
+  .experience-content>p:not(.eyebrow){font-size:14px;line-height:1.55;margin:0 0 18px;max-width:300px}
+  .experience .button{font-size:13px;padding:14px 17px}
+  .experience-detail{display:none}
+  .contact{padding-block:52px 48px}
+  .contact .eyebrow{font-size:10px;letter-spacing:1.1px;margin-bottom:16px}
+  .contact h2{font-size:49px;letter-spacing:-1.8px;line-height:1.04;margin-bottom:16px}
+  .contact>p:not(.eyebrow){font-size:14px;line-height:1.5;margin:0 0 17px}
+  .contact .button{font-size:13px;padding:14px 17px}
+  .contact-footnote{font-size:11px;margin-top:12px}
+  .footer{padding-block:25px 22px}
+  .footer-main{gap:15px;padding-bottom:0;flex-wrap:wrap}
+  .footer-main .brand{font-size:29px}
+  .footer-main p{font-size:12px;margin:0}
+  .back-top{font-size:12px;gap:15px}
+  dialog{padding:35px 22px}
+}

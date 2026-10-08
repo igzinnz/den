@@ -1,0 +1,11 @@
+SORIDENTS — publicação na Vercel
+
+OPÇÃO 1 — enviar esta pasta
+Importe a pasta "vercel-ready" como um novo projeto na Vercel. Ela já tem o index.html e os demais arquivos no nível principal.
+
+OPÇÃO 2 — conectar o repositório
+Na criação do projeto, selecione a pasta "soridents-demo/vercel-ready" como Root Directory. Use Framework Preset "Other". Não é necessário build nem instalar dependências.
+
+A configuração vercel.json serve os arquivos estáticos diretamente da pasta.
+
+Antes de divulgar o site, configure o número oficial de WhatsApp em config.js. O arquivo está preparado com o campo whatsapp vazio; os botões de contato ainda não encaminham para a clínica.
